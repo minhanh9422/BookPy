@@ -1,0 +1,22 @@
+{% extends 'base.html' %} {% block title %}Home Header{% endblock %} {% block
+HomeHeader %}
+<p>Header is here!</p>
+<img
+  src="{% static 'images/bird.avif' %}"
+  alt="logopage"
+/>
+<div>
+  <input type="text" />
+  <button>Search</button>
+</div>
+<nav>
+  <div class="home">
+    <img src="{% static 'images/bird' %}" alt="home" />
+    <span>Trang chủ</span>
+  </div>
+  <div class="account">
+    <img src="{% static 'images/account.jpg' %}" alt="account" />
+    <span>Tài khoản</span>
+  </div>
+</nav>
+{% endblock %}

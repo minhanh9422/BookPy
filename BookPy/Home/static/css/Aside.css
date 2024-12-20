@@ -1,0 +1,8 @@
+aside {
+  border: black solid 1px;
+  width: 200px;
+}
+
+aside > ul li a {
+  text-decoration: none;
+}

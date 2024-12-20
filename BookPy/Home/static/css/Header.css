@@ -1,0 +1,25 @@
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header > img {
+  height: 50px;
+  width: 50px;
+}
+
+header > div input {
+  width: 150px;
+}
+
+nav {
+  display: flex;
+}
+
+/* nav div{
+    border: black solid 1px;
+} */
+
+nav div img {
+  height: 30px;
+}

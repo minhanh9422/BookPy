@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>{% block title %}Trang chủ{% endblock %}</title>
+
+    {% comment %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}" />
+    {% endcomment %} {% block css %}{% endblock %}
+  </head>
+  <body>
+    {% load static %}
+    <header>{% block HomeHeader %}{% endblock %}</header>
+    {% comment %}
+    <main>{% block content %}{% endblock %}</main>
+    <footer>
+      <p>© 2024 BookPy đọc chùa</p>
+    </footer>
+    {% endcomment %}
+  </body>
+</html>

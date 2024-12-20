@@ -1,0 +1,14 @@
+.Book_container {
+  border: black solid 1px;
+  width: 200px;
+  height: 250px;
+}
+.Book_container > img {
+  width: 100%;
+  height: 70%;
+  /* border: red solid 1px; */
+}
+.Book_container > h3 {
+  text-align: center;
+  font-size: 22px;
+}
